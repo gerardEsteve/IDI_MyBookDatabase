@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pr_idi.mydatabaseexample.recycler_activity"
+    >
+    <item android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="SEARCH"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"
+
+
+        />
+</menu>

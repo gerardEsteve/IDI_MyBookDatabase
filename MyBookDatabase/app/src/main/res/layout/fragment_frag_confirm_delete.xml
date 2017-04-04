@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pr_idi.mydatabaseexample.frag_error"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:weightSum="1"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Eliminar llibre sel·leccionat?"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal|top"
+        android:paddingTop="20dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+         />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancel·lar"
+            android:id="@+id/canB"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_button"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="eliminar"
+            android:id="@+id/acceptB"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_button"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

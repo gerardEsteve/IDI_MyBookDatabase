@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pr_idi.mydatabaseexample">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MyBDB 042"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name=".recycler_activity"
+            android:label="Bloc A"></activity>
+        <activity
+            android:name=".MenuPrincipal"
+            android:label="Bloc B"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter android:label="MyBDB 042">
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pr_idi.mydatabaseexample.frag_add_llibre"
+    android:paddingBottom="15dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/helpTitle"
+        android:text="HELP"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="15dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TANCAR"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+       />
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/expandableListView"
+        android:layout_gravity="left|top"
+        android:layout_below="@id/helpTitle"
+        android:layout_above="@id/button2"
+        />
+
+
+</RelativeLayout>

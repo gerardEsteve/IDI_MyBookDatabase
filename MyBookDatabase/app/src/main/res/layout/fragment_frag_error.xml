@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pr_idi.mydatabaseexample.frag_error"
+    android:orientation="vertical"
+    android:paddingBottom="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Falta algun camp"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal|top"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:maxLines="1"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/button2"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button" />
+</LinearLayout>

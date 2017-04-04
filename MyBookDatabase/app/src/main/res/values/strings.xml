@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Data</string>
+    <string name="title_activity_recycler_activity">recycler_activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_menu_principal">MenuPrincipal</string>
+    <string name="abou">"Aplicació desenvolupada per: \n
+        Gerard Esteve Villuendas
+        Albert Priego Bravo \n \n
+        estudiants d\'enginyeria informàtica
+        de la FIB, del subrup And042
+        en l\'assignatura d\'Introducció al Disseny d\'Interfícies \n \n
+        "</string>
+     <string name="about">"\nAplicació desenvolupada per:\nGerard Esteve Villuendas\nAlbert Priego Bravo\n\nEstudiants d\'enginyeria informàtica de la FIB, del subrup And042 en l\'assignatura d\'Introducció al Disseny d\'Interfícies \n \n
+        "</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
+
